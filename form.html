@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบฟอร์มลงทะเบียน</title>
+</head>
+<body>
+    <h1 align="center">แบบฟอร์มลงทะเบียน</h1>
+
+    <div>
+        <form id="forml" align="center">
+            <!-- input texe name -->
+            <label for="name">ชื่อ-นามสกุล<label>
+                <input type="text" id="textnama" placeholder="ป้อนชื่อ-นามสกุล" autofocus="autofocus" maxleng="50" required>
+                <br>
+
+                <!-- input text address -->
+                <label for="address">ที่อยู่</label>
+                <input type="text" id="adress"placeholder="ป้อนที่อยู่ปัจจุบัน" maxlength="100" required>
+                <br>
+
+                <!-- input birthday -->
+                <label for="birthday">วันเกิด</label>
+                <input type="date"id="birthday" placeholder="เลือกวันเกิด">
+
+                <!-- input sex selection -->
+                <label for="sex">เลือกเพศ</label>
+                <select name="sex" id="sex">
+                    <option value="ชาย" selected>ชาย</option>
+                    <option value="หญิง">หญิง</option>
+                    <option value="LGBT">LGBT</option>
+                </select>
+                <dr>
+
+               <!-- input age -->
+               <label for="age">อายุ</label>
+               <input type="number" id="age" maxlength="3" placeholder="เลือกอายุ">
+                <dr>
+               <h2>ความสามารถพิเศษ</h2>
+               <dr>
+               <input type="checkbox" id="html" type="html" value="html" /> HTML <br>
+               <input type="checkbox" id="php" type="php" value="php" /> PHP <br>
+               <input type="checkbox" id="python" value="python " value="python" /> PYTHON <dr>
+               <input type="checkbox" id="css" value="css" value="css" /> CSS <dr>
+               <br><br>
+                <!-- button submit -->
+                <button type="submit">submit</button>
+                <button type="submit">cancle</button>
+                </form>
+    </div>
+</body>
+</html>
